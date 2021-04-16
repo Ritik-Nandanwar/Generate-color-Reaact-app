@@ -6,7 +6,7 @@ const Shade = ({ shade }) => {
   const [isCopied, setIsCopied] = useState(false)
   useEffect(() => {
     let interval = 2000
-    if (isCopied == true) {
+    if (isCopied === true) {
       setInterval(() => {
         {
           setIsCopied(false)
